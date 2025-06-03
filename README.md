@@ -14,7 +14,7 @@ This repository contains a machine learning framework for predicting the **Mean 
 
 ## Project Overview
 The project develops a machine learning model to predict MOS for volumetric videos, which are compressed at various Quantization Parameter (QP) levels. The framework uses **XGBoost** for regression, incorporating statistical robustness measures and achieving high predictive accuracy. Key features include:
-- **Dataset**: 1003 samples with features like QP, bitrate, PSNR, SSIM, VMAF, motion score, and spatial complexity.
+- **Dataset**: 1004 samples with features like QP, bitrate, PSNR, SSIM, VMAF, motion score, and spatial complexity.
 - **Feature Engineering**: Added `bitrate_per_frame` and `vmaf_motion_interaction`.
 - **Evaluation Metrics**: RMSE, R², Pearson, and Spearman correlations with bootstrapped confidence intervals.
 - **Model Interpretability**: SHAP analysis for feature importance.
