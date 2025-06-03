@@ -142,7 +142,7 @@ XGBoost outperforms simpler models, especially in handling non-linear patterns.
    - Place the dataset in the `data/` folder (not included in this repository).
 
 2. **Run the Notebook**:
-   - Open `code/xgboost_mos_prediction.ipynb` in Jupyter Notebook.
+   - Open `xgboost.ipynb` in Jupyter Notebook.
    - Execute the cells to preprocess data, train the model, and generate results.
 
 3. **Visualize Results**:
