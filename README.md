@@ -110,7 +110,7 @@ The model demonstrates exceptional performance across simulated and real dataset
 ### Generalization Evaluation
 The model was tested for generalization by training on compressed videos (black/grey backgrounds) and testing on dynamic videos (natural/colored backgrounds). Results are visualized below:
 
-![Generalization Metrics Plot](results/generalization_metrics_plot.png)
+![Generalization Metrics Plot](generalization_evaluation.png)
 
 - **Metrics**:
   - RMSE: 0.0023
