@@ -9,8 +9,6 @@ This repository contains a machine learning framework for predicting the **Mean 
 - [Model Training](#model-training)
 - [Results](#results)
 - [Process Instructions](#process-instructions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 The project develops a machine learning model to predict MOS for volumetric videos, which are compressed at various Quantization Parameter (QP) levels. The framework uses **XGBoost** for regression, incorporating statistical robustness measures and achieving high predictive accuracy. Key features include:
